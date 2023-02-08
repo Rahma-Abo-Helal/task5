@@ -86,6 +86,7 @@ h2{
     width: 80%;
     margin-bottom: 50px;
     margin-top: 50px;
+    margin-left: 20px;
 }
 .child2{
     display: block;
@@ -117,6 +118,6 @@ h2{
   width: 75%;
 }
 .btn{
-    padding: 2px 90px;
+    padding: 8px 90px;
 }
 }
