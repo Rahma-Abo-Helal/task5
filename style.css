@@ -1,0 +1,122 @@
+
+body {
+    background: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+
+.parent{
+    margin: auto;
+    margin-top: 180PX;
+    width: 40%;
+    height: 80%;
+}
+.child1{
+    padding: 20px;
+    width:94% ;
+    height: 40%;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.child2{
+    margin: 0;
+    padding: 0;
+    width:100% ;
+    height: 40%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+}
+.div1{
+    background: hsl(179, 62%, 43%);
+    width:46% ;
+    height: 90%; 
+    margin: 0;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+}
+.div2{
+    background: hsl(179, 70%, 45%);
+   width:46% ;
+    height: 90%; 
+    margin: 0;
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+}
+.btn {
+    background-color: hsl(71, 73%, 54%);
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 13px 90px;
+    margin-left: 20px;
+    color: aliceblue;
+    margin-bottom: 30px;
+    border:hsl(71, 73%, 54%);
+    border-bottom-style:unset;
+}
+p{
+    margin: 20px;
+    padding: 5px;
+    color: aliceblue;
+}
+h3{
+    margin: 15px;
+    padding: 5px; 
+    color: aliceblue;
+}
+h2{
+    margin: 20px;
+    padding: 5px; 
+}
+.div2 p{
+    width: 60%;
+}
+.child1 h3{
+    color: hsl(71, 73%, 54%);
+}
+.child1 h2{
+    color: hsl(179, 62%, 43%);
+}
+.child1 p{
+  color:  hsl(218, 22%, 67%);
+}
+@media (max-width:375px){
+.parent{
+    display: block;
+    width: 80%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.child2{
+    display: block;
+    width: 100%;
+}
+.div1{
+width: 94%;
+height: 100%;
+border-bottom-left-radius:0;
+}
+.div2{
+    width: 94%;
+    height: 100%;
+    border-bottom-left-radius:10px;
+}
+p{
+    padding: 10px 0;
+    width: 100%;
+}
+.child1 p{
+    width: 92%;
+}
+h2{
+    width: 100%;
+    margin: 0;
+    margin-left: 7px;
+}
+.div2 p{
+  width: 75%;
+}
+.btn{
+    padding: 2px 90px;
+}
+}
